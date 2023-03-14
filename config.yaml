@@ -1,0 +1,92 @@
+# Personal alias --> keymapd --> keymap -c ~/GitHub/keymap-drawer/config.yaml draw keymap.yaml >keymap.svg
+# this goes into the "configuration" code/text box at the bottom of the website!
+draw_config:
+  append_colon_to_layer_header: true
+  arc_radius: 6.0
+  arc_scale: 1.0
+  combo_h: 26.0
+  combo_w: 28.0
+  inner_pad_h: 2.0
+  inner_pad_w: 2.0
+  key_h: 56.0
+  key_rx: 6.0
+  key_ry: 6.0
+  key_w: 60.0
+  line_spacing: 1.2
+  outer_pad_h: 56.0
+  outer_pad_w: 30.0
+  small_pad: 5.0
+  split_gap: 30.0
+  svg_style: |
+    /* font and background color specifications */
+    svg {
+        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+        font-size: 14px;
+        font-kerning: normal;
+        text-rendering: optimizeLegibility;
+        fill: #24292e;
+    }
+
+    /* default key styling */
+    rect {
+        fill: #f6f8fa;
+        stroke: #c9cccf;
+        stroke-width: 1;
+    }
+
+    /* color accent for combo boxes */
+    rect.combo {
+        fill: #cdf;
+    }
+
+    /* color accent for held keys */
+    rect.held, rect.combo.held {
+        fill: #fdd;
+    }
+
+    /* color accent for ghost (optional) keys */
+    rect.ghost, rect.combo.ghost {
+        fill: #fff0;
+        stroke-width: 0;
+    }
+
+    text {
+        text-anchor: middle;
+        dominant-baseline: middle;
+    }
+
+    /* styling for layer labels */
+    text.label {
+        font-weight: bold;
+        text-anchor: start;
+        stroke: white;
+        stroke-width: 2;
+        paint-order: stroke;
+    }
+
+    /* styling for combo tap, and key hold/shifted label text */
+    text.combo, text.hold, text.shifted {
+        font-size: 11px;
+    }
+
+    text.hold {
+        text-anchor: middle;
+        dominant-baseline: auto;
+    }
+
+    text.shifted {
+        text-anchor: middle;
+        dominant-baseline: hanging;
+    }
+
+    /* styling for hold/shifted label text in combo box */
+    text.combo.hold, text.combo.shifted {
+        font-size: 8px;
+    }
+
+    /* styling for combo dendrons */
+    path {
+        stroke-width: 1;
+        stroke: gray;
+        fill: none;
+    }
