@@ -19,7 +19,7 @@ layers:
     - { t: "o", h: "CTL" }
     - { t: "BSPC", h: "" }
     # left home five (1.0 - 1.4)
-    - { t: "i", h: "SYM" }
+    - { t: "TAB", h: "" }
     - { t: "s", h: "" }
     - { t: "r", h: "" }
     - { t: "t", h: "NAV" }
@@ -29,9 +29,9 @@ layers:
     - { t: "n", h: "NAV" }
     - { t: "e", h: "" }
     - { t: "a", h: "" }
-    - { t: "c", h: "SYM" }
+    - { t: "RET", h: "" }
     # left lower five (2.0 - 2.4)
-    - { t: "TAB", h: "" }
+    - { t: "i", h: "SYM" }
     - { t: "/", h: "" }
     - { t: "-", h: "" }
     - { t: "SPC", h: "MEH" }
@@ -41,7 +41,7 @@ layers:
     - { t: "A2U", h: "" }
     - { t: ",", h: "" }
     - { t: ".", h: "" }
-    - { t: "RET", h: "" }
+    - { t: "c", h: "SYM" }
   ALPHA2:
     # left upper five (0.0 - 0.4)
     - { t: "ESC", h: "" }
@@ -56,7 +56,7 @@ layers:
     - { t: "z", h: "" }
     - { t: "BSPC", h: "" }
     # left home five (1.0 - 1.4)
-    - { t: "q", h: "" }
+    - { t: "TAB", h: "" }
     - { t: "j", h: "" }
     - { t: "p", h: "" }
     - { t: "k", h: "" }
@@ -66,9 +66,9 @@ layers:
     - { t: "b", h: "" }
     - { t: ":", h: "" }
     - { t: "x", h: "" }
-    - { t: "y", h: "" }
+    - { t: "RET", h: "" }
     # left lower five (2.0 - 2.4)
-    - { t: "TAB", h: "" }
+    - { t: "q", h: "" }
     - { t: "?", h: "" }
     - { t: "_", h: "" }
     - { t: "trans", h: "" }
@@ -78,7 +78,7 @@ layers:
     - { t: "AL1", h: "" }
     - { t: "$", h: "" }
     - { t: "&", h: "" }
-    - { t: "RET", h: "" }
+    - { t: "y", h: "" }
   ALPHA2UPPER:
     # left upper five (0.0 - 0.4)
     - { t: "ESC", h: "" }
@@ -93,7 +93,7 @@ layers:
     - { t: "Z", h: "" }
     - { t: "BSPC", h: "" }
     # left home five (1.0 - 1.4)
-    - { t: "Q", h: "" }
+    - { t: "TAB", h: "" }
     - { t: "J", h: "" }
     - { t: "P", h: "" }
     - { t: "K", h: "" }
@@ -103,9 +103,9 @@ layers:
     - { t: "B", h: "" }
     - { t: "'", h: "" }
     - { t: "X", h: "" }
-    - { t: "Y", h: "" }
+    - { t: "RET", h: "" }
     # left lower five (2.0 - 2.4)
-    - { t: "TAB", h: "" }
+    - { t: "Q", h: "" }
     - { t: "!", h: "" }
     - { t: "@", h: "" }
     - { t: "trans", h: "" }
@@ -115,7 +115,7 @@ layers:
     - { t: "AL1", h: "" }
     - { t: "", h: "" }
     - { t: "", h: "" }
-    - { t: "RET", h: "" }
+    - { t: "Y", h: "" }
   SYM/NUM:
     # left upper five (0.0 - 0.4)
     - { t: "ESC", h: "" }
@@ -125,12 +125,12 @@ layers:
     - { t: "}", h: "" }
     # right upper five (0.5 - 0.9)
     - { t: ".", h: "," }
-    - { t: "7", h: "&" }
-    - { t: "8", h: "*" }
-    - { t: "9", h: "/" }
+    - { t: "1", h: "!" }
+    - { t: "2", h: "@" }
+    - { t: "3", h: "#" }
     - { t: "BSPC", h: "" }
     # left home five (1.0 - 1.4)
-    - { t: "`", h: "", type: held }
+    - { t: "TAB", h: "" }
     - { t: "~", h: "" }
     - { t: "(", h: "" }
     - { t: ")", h: "" }
@@ -140,19 +140,19 @@ layers:
     - { t: "4", h: "$" }
     - { t: "5", h: "%" }
     - { t: "6", h: "^" }
-    - { t: "0", h: "=", type: held }
+    - { t: "RET", h: "" }
     # left lower five (2.0 - 2.4)
-    - { t: "TAB", h: "" }
+    - { t: "`", h: "", type: held }
     - { t: "|", h: "" }
     - { t: "\\", h: "" }
     - { t: "trans", h: "" }
     - { t: "trans", h: "" }
     # right lower five (2.5 - 2.9)
     - { t: "-", h: "" }
-    - { t: "1", h: "!" }
-    - { t: "2", h: "@" }
-    - { t: "3", h: "#" }
-    - { t: "RET", h: "" }
+    - { t: "7", h: "&" }
+    - { t: "8", h: "*" }
+    - { t: "9", h: "/" }
+    - { t: "0", h: "=", type: held }
   NAV:
     # left upper five (0.0 - 0.4)
     - { t: "ESC", h: "" }
@@ -167,7 +167,7 @@ layers:
     - { t: "END", h: "" }
     - { t: "BSPC", h: "" }
     # left home five (1.0 - 1.4)
-    - { t: "SHFT", h: "" }
+    - { t: "TAB", h: "" }
     - { t: "PRV TAB", h: "" }
     - { t: "NXT TAB", h: "" }
     - { t: "MB1", h: "", type: held }
@@ -177,9 +177,9 @@ layers:
     - { t: "←", h: "", type: held }
     - { t: "↓", h: "" }
     - { t: "→", h: "" }
-    - { t: "MEH", h: "" }
+    - { t: "RET", h: "" }
     # left lower five (2.0 - 2.4)
-    - { t: "TAB", h: "" }
+    - { t: "SHFT", h: "" }
     - { t: "COPY", h: "PASTE" }
     - { t: "CUT", h: "pstFile" }
     - { t: "MB2", h: "" }
@@ -189,7 +189,7 @@ layers:
     - { t: "GUI", h: "" }
     - { t: ",", h: "" }
     - { t: ";", h: "" }
-    - { t: "RET", h: "" }
+    - { t: "MEH", h: "" }
   BLE:
     # left upper five (0.0 - 0.4)
     - { t: "OUT BLE", h: "" }
@@ -230,5 +230,5 @@ layers:
 
 combos:
   # tog NAV
-  - { p: [0, 1, 2, 3], k: "NAV", a: top, layers: [ALPHA1] }
-  - { p: [0, 1, 2, 3], k: "AL1", a: top, layers: [NAV] }
+  - { p: [1, 2, 3], k: "NAV", a: top, layers: [ALPHA1] }
+  - { p: [1, 2, 3], k: "AL1", a: top, layers: [NAV] }
