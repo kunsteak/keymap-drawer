@@ -119,10 +119,10 @@ layers:
   SYM/NUM:
     # left upper five (0.0 - 0.4)
     - { t: "ESC", h: "" }
-    - { t: "{", h: "CTL" }
+    - { t: "`", h: "CTL" }
     - { t: "[", h: "ALT" }
     - { t: "]", h: "GUI" }
-    - { t: "}", h: "" }
+    - { t: "?", h: "" }
     # right upper five (0.5 - 0.9)
     - { t: ".", h: "," }
     - { t: "1", h: "!" }
@@ -134,7 +134,7 @@ layers:
     - { t: "~", h: "" }
     - { t: "(", h: "" }
     - { t: ")", h: "" }
-    - { t: "SHFT", h: "" }
+    - { t: "-", h: "" }
     # right home five (1.5 - 1.9)
     - { t: "+", h: "" }
     - { t: "4", h: "$" }
@@ -142,13 +142,13 @@ layers:
     - { t: "6", h: "^" }
     - { t: "RET", h: "" }
     # left lower five (2.0 - 2.4)
-    - { t: "`", h: "", type: held }
+    - { t: "SHFT", h: "", type: held }
     - { t: "|", h: "" }
     - { t: "\\", h: "" }
     - { t: "trans", h: "" }
     - { t: "trans", h: "" }
     # right lower five (2.5 - 2.9)
-    - { t: "-", h: "" }
+    - { t: "/", h: "" }
     - { t: "7", h: "&" }
     - { t: "8", h: "*" }
     - { t: "9", h: "/" }
