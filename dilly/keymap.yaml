@@ -1,0 +1,213 @@
+# dilly keymap
+layout:
+  ortho_layout:
+    split: true
+    rows: 3
+    columns: 5
+layers:
+  DEFAULT:
+    # left upper five (0.0 - 0.4)
+    - { t: "Y", h: "" }
+    - { t: "C", h: "CTL" }
+    - { t: "L", h: "ALT" }
+    - { t: "M", h: "GUI" }
+    - { t: "K", h: "BLE" }
+    # right upper five (0.5 - 0.9)
+    - { t: "Z", h: "BLE" }
+    - { t: "F", h: "GUI" }
+    - { t: "U", h: "ALT" }
+    - { t: ",", h: "CTL" }
+    - { t: "'", h: '"' }
+    # left home five (1.0 - 1.4)
+    - { t: "I", h: "" }
+    - { t: "S", h: "" }
+    - { t: "R", h: "" }
+    - { t: "T", h: "NAV" }
+    - { t: "G", h: "" }
+    # right home five (1.5 - 1.9)
+    - { t: "P", h: "" }
+    - { t: "N", h: "NAV" }
+    - { t: "E", h: "" }
+    - { t: "A", h: "" }
+    - { t: "O", h: "" }
+    # left lower five (2.0 - 2.4)
+    - { t: "Q", h: "" }
+    - { t: "V", h: "" }
+    - { t: "W", h: "" }
+    - { t: "D", h: "" }
+    - { t: "␣", h: "MEH" }
+    # right lower five (2.5 - 2.9)
+    - { t: "B", h: "SYM" }
+    - { t: "H", h: "" }
+    - { t: "J", h: "" }
+    - { t: ".", h: ":" }
+    - { t: "X", h: ";" }
+  SYM/NUM:
+    # left upper five (0.0 - 0.4)
+    - { t: "ESC", h: "" }
+    - { t: "`", h: "CTL" }
+    - { t: "[", h: "ALT" }
+    - { t: "]", h: "GUI" }
+    - { t: "?", h: "" }
+    # right upper five (0.5 - 0.9)
+    - { t: ".", h: "," }
+    - { t: "1", h: "!" }
+    - { t: "2", h: "@" }
+    - { t: "3", h: "#" }
+    - { t: "BSPC", h: "" }
+    # left home five (1.0 - 1.4)
+    - { t: "TAB", h: "" }
+    - { t: "~", h: "" }
+    - { t: "(", h: "" }
+    - { t: ")", h: "" }
+    - { t: "-", h: "" }
+    # right home five (1.5 - 1.9)
+    - { t: "+", h: "" }
+    - { t: "4", h: "$" }
+    - { t: "5", h: "%" }
+    - { t: "6", h: "^" }
+    - { t: "RET", h: "" }
+    # left lower five (2.0 - 2.4)
+    - { t: "SHFT", h: "" }
+    - { t: "\\", h: "" }
+    - { t: "|", h: "" }
+    - { t: "/", h: "" }
+    - { t: "trans", h: "" }
+    # right lower five (2.5 - 2.9)
+    - { t: "", h: "", type: held }
+    - { t: "7", h: "&" }
+    - { t: "8", h: "*" }
+    - { t: "9", h: "/" }
+    - { t: "0", h: "=" }
+  NAV:
+    # left upper five (0.0 - 0.4)
+    - { t: "ESC", h: "" }
+    - { t: "BCK", h: "CTL" }
+    - { t: "FWD", h: "ALT" }
+    - { t: "NLOCK", h: "" }
+    - { t: "VOL+", h: "" }
+    # right upper five (0.5 - 0.9)
+    - { t: "DEL", h: "" }
+    - { t: "HOME", h: "" }
+    - { t: "↑", h: "" }
+    - { t: "END", h: "" }
+    - { t: "BSPC", h: "" }
+    # left home five (1.0 - 1.4)
+    - { t: "TAB", h: "" }
+    - { t: "PRV TAB", h: "" }
+    - { t: "NXT TAB", h: "" }
+    - { t: "MB1", h: "", type: held }
+    - { t: "VOL-", h: "" }
+    # right home five (1.5 - 1.9)
+    - { t: "PG UP", h: "" }
+    - { t: "←", h: "", type: held }
+    - { t: "↓", h: "" }
+    - { t: "→", h: "" }
+    - { t: "RET", h: "" }
+    # left lower five (2.0 - 2.4)
+    - { t: "SHFT", h: "" }
+    - { t: "COPY", h: "PASTE" }
+    - { t: "CUT", h: "pstFile" }
+    - { t: "MB2", h: "" }
+    - { t: "MB3", h: "" }
+    # right lower five (2.5 - 2.9)
+    - { t: "PG DN", h: "" }
+    - { t: "GUI", h: "" }
+    - { t: "rpt", h: "" }
+    - { t: ";", h: "," }
+    - { t: "MEH", h: "" }
+  BLE:
+    # left upper five (0.0 - 0.4)
+    - { t: "OUT BLE", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "", type: held }
+    # right upper five (0.5 - 0.9)
+    - { t: "", h: "", type: held }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "OUT BLE", h: "" }
+    # left home five (1.0 - 1.4)
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "BOOT", h: "" }
+    - { t: "", h: "" }
+    # right home five (1.5 - 1.9)
+    - { t: "", h: "" }
+    - { t: "BOOT", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    # left lower five (2.0 - 2.4)
+    - { t: "RESET", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    # right lower five (2.5 - 2.9)
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "RESET", h: "" }
+  UNIV CMBS:
+    # left upper five (0.0 - 0.4)
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    # right upper five (0.5 - 0.9)
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    # left home five (1.0 - 1.4)
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    # right home five (1.5 - 1.9)
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    # left lower five (2.0 - 2.4)
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    # right lower five (2.5 - 2.9)
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+    - { t: "", h: "" }
+
+combos:
+  # tog NAV
+  - { p: [1, 2, 3], k: "NAV", a: top, layers: [DEFAULT] }
+  - { p: [1, 2, 3], k: "AL1", a: top, layers: [NAV] }
+  # caps lock
+  - { p: [4, 5], k: "CAPS", a: top, layers: [DEFAULT] }
+  - { p: [14, 15], k: "SHFT", a: top, layers: [DEFAULT] }
+  # minus
+  - { p: [15, 16], k: "-", a: mid, layers: [SYM/NUM] }
+  # control & whitespace
+  - { p: [6, 15], k: "BPSC", a: right, layers: [UNIV CMBS] }
+  - { p: [5, 16], k: "DEL", a: top, layers: [UNIV CMBS], offset: -0.9 }
+  - { p: [3, 14], k: "BPSC", a: left, layers: [UNIV CMBS] }
+  - { p: [4, 13], k: "DEL", a: top, layers: [UNIV CMBS], offset: -0.9 }
+  - { p: [3, 13], k: "ESC", a: top, layers: [UNIV CMBS] }
+  - { p: [6, 16], k: "ESC", a: top, layers: [UNIV CMBS] }
+  - { p: [23, 24], k: "RET", a: top, layers: [UNIV CMBS] }
+  - { p: [25, 26], k: "RET", a: top, layers: [UNIV CMBS] }
+  - { p: [2, 3, 10], k: "TAB", a: top, layers: [UNIV CMBS], offset: 0.5 }
+  - { p: [6, 7, 19], k: "TAB", a: top, layers: [UNIV CMBS], offset: 0.5 }
