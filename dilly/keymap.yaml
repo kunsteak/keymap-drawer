@@ -207,6 +207,7 @@ combos:
   - { p: [4, 13], k: "DEL", a: top, layers: [UNIV CMBS], offset: -0.9 }
   # - { p: [3, 13], k: "ESC", a: top, layers: [UNIV CMBS] }
   # - { p: [6, 16], k: "ESC", a: top, layers: [UNIV CMBS] }
-  - { p: [25, 26], k: "RET", a: top, layers: [UNIV CMBS] }
+  - { p: [22, 23], k: "RET", a: top, layers: [UNIV CMBS] }
+  - { p: [26, 27], k: "RET", a: top, layers: [UNIV CMBS] }
   - { p: [2, 3, 10], k: "TAB", a: top, layers: [UNIV CMBS] }
   - { p: [6, 7, 19], k: "TAB", a: top, layers: [UNIV CMBS] }
