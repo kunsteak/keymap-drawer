@@ -158,8 +158,11 @@ combos:
   # tog NAV left
   - { p: [1, 2, 3], k: "NAV", a: top, layers: [DEFAULT] }
   - { p: [6, 7, 8], k: "NAV", a: top, layers: [DEFAULT] }
+  # return
+  - { p: [26, 27], k: "RET", a: mid, layers: [DEFAULT] }
+  - { p: [22, 23], k: "RET", a: mid, layers: [DEFAULT] }
   # repeat
-  - { p: [26, 28], k: "rpt", a: bottom, layers: [DEFAULT] }
+  - { p: [27, 28], k: "rpt", a: mid, layers: [DEFAULT] }
   # caps lock
   - { p: [4, 5], k: "CAPS", a: top, layers: [DEFAULT] }
   - { p: [13, 14], k: "SHFT", a: mid, layers: [DEFAULT] }
