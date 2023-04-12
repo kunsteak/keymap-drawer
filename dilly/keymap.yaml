@@ -35,7 +35,7 @@ layers:
     - { t: "V", h: "" }
     - { t: "W", h: "" }
     - { t: "D", h: "" }
-    - { t: "␣", h: "MEH" }
+    - { t: "␣", h: "MEH", type: held }
     # right lower five (2.5 - 2.9)
     - { t: "B", h: "SYM" }
     - { t: "H", h: "" }
@@ -72,7 +72,7 @@ layers:
     - { t: "\\", h: "" }
     - { t: "|", h: "" }
     - { t: "/", h: "" }
-    - { t: "trans", h: "" }
+    - { t: "␣", h: "" }
     # right lower five (2.5 - 2.9)
     - { t: "", h: "", type: held }
     - { t: "7", h: "&" }
@@ -96,26 +96,26 @@ layers:
     - { t: "TAB", h: "" }
     - { t: "PRV TAB", h: "" }
     - { t: "NXT TAB", h: "" }
-    - { t: "MB1", h: "", type: held }
+    - { t: "MB1", h: "" }
     - { t: "MB2", h: "" }
     # right home five (1.5 - 1.9)
     - { t: "PG DN", h: "" }
-    - { t: "←", h: "", type: held }
+    - { t: "←", h: "" }
     - { t: "↓", h: "" }
     - { t: "→", h: "" }
-    - { t: "RET", h: "" }
+    - { t: "RET", h: "MEH" }
     # left lower five (2.0 - 2.4)
     - { t: "SHFT", h: "" }
     - { t: "Vol-", h: "" }
     - { t: "Vol+", h: "" }
     - { t: "MB3", h: "" }
-    - { t: "trans", h: "" }
+    - { t: "␣", h: "" }
     # right lower five (2.5 - 2.9)
-    - { t: "rpt", h: "" }
     - { t: "GUI", h: "" }
-    - { t: ",", h: "" }
-    - { t: ";", h: "" }
-    - { t: "MEH", h: "" }
+    - { t: "ALT", h: "" }
+    - { t: "CTL", h: "" }
+    - { t: "", h: "" }
+    - { t: "SHFT", h: "" }
   BLE:
     # left upper five (0.0 - 0.4)
     - { t: "OUT BLE", h: "" }
